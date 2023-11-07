@@ -77,8 +77,27 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Frustrated by your tech devices?</div>
-        <div class="intro-heading text-uppercase">We're here to help</div>
+<style>
+  .btn-container {
+    text-align: center;
+  }
+
+  .btn-container .btn {
+    margin: 10px;
+  }
+
+  @media (max-width: 767px) {
+    .btn-container .btn {
+      margin: 5px;
+    }
+  }
+</style>
+
+<div class="btn-container">
+  <a class="btn btn-primary btn-xl js-scroll-trigger text-uppercase" href="#contact">Contact Us</a>
+  <a class="btn btn-primary btn-xl text-uppercase" href="https://clearcomputing.on.spiceworks.com/portal" target="_blank">Submit a ticket</a>
+</div>
+
         <a class="btn btn-primary btn-xl js-scroll-trigger text-uppercase" href="#contact">Contact Us</a>
         <span style="margin: 0 10px;"></span>
         <a class="btn btn-primary btn-xl text-uppercase" href="https://clearcomputing.on.spiceworks.com/portal" target="_blank">Submit a ticket</a>
